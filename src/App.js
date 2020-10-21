@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Link, Route, Switch } from "react-router-dom";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import Course from "./pages/Course";
+import Topic from "./pages/Topic";
+import Instructor from "./pages/Instructor";
+import Notfound from "./pages/Notfound";
+import SignUp from "./pages/SignUp";
+import Foooter from "./components/Foooter";
+import NavBar from "./components/NavBar";
+import CategoryPage from './pages/CategoryPage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <NavBar/>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <Route exact path="/signup" component={SignUp} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/course" component={Course} />
+        <Route exact path="/course/topic" component={Topic} />
+        <Route exact path="/categories" component={CategoryPage} />
+        <Route exact path="/instructor" component={Instructor} />
+        <Route component={Notfound} />
+      </Switch>
+      <Foooter/>
+
     </div>
   );
 }

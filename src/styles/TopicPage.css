@@ -1,0 +1,50 @@
+.topic__page {
+  background-color: rgb(248, 248, 248);
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.topic__page .topic__container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.topic__heading h2 {
+  font-size: 2rem;
+}
+.topic__heading h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.topic__description {
+  margin: 2rem 0;
+}
+.topic__description p {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+}
+
+.topic__video {
+  width: 100%;
+}
+.topic__video h2 {
+  font-size: 1.4rem;
+}
+
+.topic__video p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+.topic__video video {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.topic__files {
+  margin: 1rem 0;
+}
+
+.topic__files p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}

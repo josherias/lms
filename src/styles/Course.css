@@ -1,0 +1,33 @@
+.course {
+  /* width: 350px; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.course:hover {
+  border: 1px solid #d1cbcb;
+  border-radius: 10px;
+}
+
+.course .link {
+  text-decoration: none;
+}
+.course__container {
+  width: 100%;
+}
+.course__container img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.course__container .course__text {
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+.course__text h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.course__text p {
+  color: rgb(71, 69, 69);
+  padding-bottom: 1rem;
+}

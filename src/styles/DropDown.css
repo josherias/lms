@@ -1,0 +1,42 @@
+.drop-down {
+  background-color: rgb(240, 238, 235);
+  padding: 7px 7px;
+  border-radius: 15px;
+  margin: 0 1rem;
+  position: relative;
+  width: 150px;
+}
+
+.drop-down__icon {
+  color: rgb(245, 24, 24);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.courses__container {
+  padding: 1rem 4rem;
+}
+
+.drop-down ul {
+  background-color: rgb(240, 238, 235);
+  list-style: none;
+  /* text-align: center; */
+  display: none;
+  position: absolute;
+  border-radius: 0px 5px;
+  width: 95%;
+  margin: 6px 0;
+  top: 36px;
+  left: 80px;
+  padding: 5px;
+  border: 1px solid rgb(214, 211, 211);
+  z-index: 1000;
+}
+
+.drop-down:hover > ul {
+  display: block;
+}
+
+.drop-down ul li {
+  padding: 10px 0px;
+}

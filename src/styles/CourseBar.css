@@ -1,0 +1,18 @@
+.courses__bar {
+  padding: 3rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.course__bar__left {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .courses__bar {
+    flex-direction: column;
+  }
+}

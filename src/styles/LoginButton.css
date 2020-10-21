@@ -1,0 +1,20 @@
+.input__group {
+  padding: 0.5rem;
+  margin: 5px 0;
+}
+
+.input__group button {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  background-color: rgb(96, 185, 245);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.input__group button:hover {
+  background-color: rgb(33, 147, 223);
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.hero {
+  background: rgb(232, 237, 241);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
